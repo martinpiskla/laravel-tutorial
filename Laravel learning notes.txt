@@ -1,0 +1,11 @@
+Laravel notes
+
+Artisan file - command line application (helps with artisan/composer commands during laravel development)
+
+Routes - self explanatory - registers what has to be presented to client 
+after they navigate to a (sub)page
+
+Views - actual html pages presented to client
+
+
+
