@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('todos/welcome');
 });
 
-Route::get('about', 'App\Http\Controllers\AboutController@index');
+Route::get('todos','App\Http\Controllers\TodosController@index');
