@@ -7,5 +7,5 @@ after they navigate to a (sub)page
 
 Views - actual html pages presented to client
 
-
+Controller - class which determines what happens when user visits specific Route
 
