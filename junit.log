@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\Users\Martin\todos-app\tests\Browser\LoginTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="2.647001">
+    <testsuite name="Tests\Browser\LoginTest" file="C:\Users\Martin\todos-app\tests\Browser\LoginTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="2.647001">
+      <testcase name="testExample" class="Tests\Browser\LoginTest" classname="Tests.Browser.LoginTest" file="C:\Users\Martin\todos-app\tests\Browser\LoginTest.php" line="20" assertions="3" time="2.647001">
+        <system-out>string(0) ""
+</system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
