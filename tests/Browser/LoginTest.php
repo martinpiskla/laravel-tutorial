@@ -27,10 +27,17 @@ class LoginTest extends DuskTestCase
                     //->assertPresent($browser->driver->findElement(WebDriverBy::xpath('//*[@id="loginbtn"]')))
                     ->assertVisible($browser->driver->findElement(WebDriverBy::xpath('//*[@id="loginbtn"]'))->getText());
                     $sort = $browser->driver->findElement(WebDriverBy::xpath('//*[@id="loginbtn"]'))->getText();
-                    echo $sort;
-                    print $sort;
-                    var_dump($sort);
-                    $browser->quit();
+                    var_dump('webpage is working correctly');
+                    //assertTrue(count($browser->driver->findElements(WebDriverBy::xpath('//*[@id="home-wrapper"]'))) > 0);
+                    //$browser->quit();
+        });
+    }
+
+    public function testCatalogItems()
+    {
+        $this->browse(function (Browser $browser){
+            $browser->visit('damske-saty')
+                    ->assertTrue(count($browser->driver->findElements(WebDriverBy::xpath('//article[contains(@class,"colored_product__item")]'))) == 24);
         });
     }
 
